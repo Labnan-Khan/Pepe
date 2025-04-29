@@ -4,11 +4,12 @@
     align-items: center;
     gap: 20px;
     border-bottom: 2px solid white;
-    padding: 80px 5px;
+    padding: 90px 5px;
 }
 
 .roadmap h4{
     font-size: xxx-large;
+    margin-bottom: 20px;
 }
 
 .roadmap .ropi{

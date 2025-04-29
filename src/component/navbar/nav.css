@@ -1,5 +1,5 @@
 .nav{
-    height: 110px; 
+    height: 90px; 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,8 +10,8 @@
     right: 0px;
     left: 0px;
     font-size: larger;
-    padding-top: 40px;
-    padding-bottom: 20px;
+    /* padding-top: 40px; */
+    /* padding-bottom: 20px; */
 }
 button{
     color:white;
@@ -35,6 +35,7 @@ button{
     border: 3px solid white;
     background-size: cover;
 }
+
 
 
 .navUl{
@@ -75,6 +76,8 @@ button{
         padding: 5px;
         margin-right: 50px;
     }
+
+
     .navUl{
         display: none;
     }
