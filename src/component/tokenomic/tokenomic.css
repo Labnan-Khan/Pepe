@@ -1,0 +1,61 @@
+.tokenomic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid rgb(252, 251, 251);
+    padding: 80px 20px;
+}
+
+.tokenomic h3{
+    font-size: xx-large;
+}
+.sec{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.sec2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sec img{
+    border-radius: 50%;
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.sec2 div{
+    border: 3px solid white;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0px;
+    padding-left: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    gap: 20px;
+    background-color: rgb(10, 80, 10);
+}
+
+.sec2 div p, .sec2 div p sup{
+    margin: 0px;
+    background-color: rgb(10, 80, 10);
+}
+
+@media (max-width:750px) {
+    .sec{
+        flex-direction: column;
+    }
+
+    
+.tokenomic h3{
+    margin-bottom: 30px;
+}
+}

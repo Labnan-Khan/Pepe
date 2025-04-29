@@ -1,0 +1,48 @@
+.roadmap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 2px solid white;
+    padding: 80px 5px;
+}
+
+.roadmap h4{
+    font-size: xxx-large;
+}
+
+.roadmap .ropi{
+    width: 300px;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section .section2{
+    border: 3px solid white;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    gap: 20px;
+    background-color: rgb(10, 80, 10);
+}
+
+.section2 p{
+    margin: 0px;
+    background-color: rgb(10, 80, 10);
+}
+
+@media (max-width:750px) {
+    .roadmap{
+        flex-direction: column-reverse;
+    }
+    .pepeh1{
+        display: none;
+    }
+}

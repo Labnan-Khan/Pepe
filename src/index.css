@@ -1,0 +1,12 @@
+*{
+    background-color: #4c9540;
+    color: white;
+    font-size: x-large;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    border: none;
+}
+html{
+    scroll-behavior:smooth;
+}

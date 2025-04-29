@@ -1,0 +1,112 @@
+.home{
+    padding: 100px 50px;
+    border-bottom: 3px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lefrig{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ridiv{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 0px;
+}
+
+.home h3{
+    margin-top: 30px;
+    width: 100%;
+    text-align: left;
+    /* margin-left: 40px; */
+    font-weight: 900;
+    font-size: xxx-large;
+    font-family: wfont_ee3942_1c190ea6b91e4b5da26144381f1f6a4b, wf_1c190ea6b91e4b5da26144381, orig_genty_demo_regular;
+}
+
+.home p{
+    padding: 0px 0px;
+}
+
+.home .imgS{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+ 
+.imgS img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.home .divB{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 0px 20px;
+}
+.home button{
+    width: 250px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3px 15px;
+    gap: 10px;
+    border: 1px solid white;
+}
+.home button img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.pepehi{
+    width: 300px;
+}
+
+.pepehi2{
+    display: none;
+}
+
+
+@media (max-width:750px) {
+    .pepehi{
+        display: none;
+    }
+    .pepehi2{
+        display: block;
+        width: 300px;
+        margin-top: 30px;
+    }
+    .home{
+        padding: 80px 10px;
+    }
+    .ridiv{
+        width: 100%;
+    }
+    .home h3{
+        text-align: center;
+    }
+    .home p{
+        text-align: center;
+    }
+    .home .imgS{
+        justify-content: center;
+    }
+}
